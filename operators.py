@@ -43,3 +43,30 @@ print(x)
 x /= 2 
 print(x)
 x **= 2
+
+# loical
+bool1  = (a > b)
+bool2= (a != b)
+
+bool1 and bool2
+bool1 or bool2
+not bool1
+
+# empty lists or string are said fals in python
+
+# identity
+a = 200
+b = 200
+c = b
+print(a is b)
+print(b is c)
+print(a is not b)
+print(c is not b)
+# checks fo memory position  
+
+
+# assosciation
+hw = "hello world!"
+print("world" in hw)
+hw = ["hello" , "world!"]
+print("world" in hw)
