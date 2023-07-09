@@ -16,12 +16,12 @@ while  True:
     opcao = input(menu)
 
     if  opcao == "d":
-        valor  = float(input("Quanto deseja epositar? \n"))
+        valor  = float(input("Quanto deseja depositar? \n"))
         if valor > 0:
             saldo += valor
             extrato += f"Deposito: {valor: .2f} \n"
         else:
-            print("O valor do deposito eve ser positivo. \n")
+            print("O valor do deposito deve ser positivo. \n")
 
     elif opcao == "s":
         valor = float(input("Quanto deseja sacar? \n"))
