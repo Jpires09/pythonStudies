@@ -44,7 +44,7 @@ x /= 2
 print(x)
 x **= 2
 
-# loical
+# logical
 bool1  = (a > b)
 bool2= (a != b)
 
@@ -52,7 +52,7 @@ bool1 and bool2
 bool1 or bool2
 not bool1
 
-# empty lists or string are said fals in python
+# empty lists or string are said false in python
 
 # identity
 a = 200
